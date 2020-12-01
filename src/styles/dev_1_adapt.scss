@@ -1,0 +1,280 @@
+@media screen and (max-width: 1151px){
+    .advantages {
+        .advantages-list {
+            justify-content: center;
+            li {
+                max-width: 230px;
+                width: 100%;
+            }
+        }
+    }
+    
+    .services {
+        .services-list {
+            justify-content: space-around;
+        }
+    }
+
+    .specialists {
+        .specialist-slider {
+            .specialist-wrap {
+                max-width: 270px;
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+    .intro {
+        .title {
+            text-align: center;
+        }
+        .intro-inner {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+@media screen and (max-width: 1090px){
+    .position1 {
+        position: fixed;
+        top: 132px;
+        left: 605px;
+    }
+    
+    .title {
+        font-size: 28px;
+    }
+
+    .header {
+        .header-top {
+            .header-wrapper {
+                .header-logo {
+                    margin: 0 auto;
+                }
+                .header-list {
+                    display: none;
+                }
+                .burger {
+                    display: block;
+                    position: absolute;
+                    top: 2%;
+                    left: 3%;
+                }
+            }
+        }
+        .header-nav {
+            margin: 0;
+            .appointmant {
+                display: flex;
+                margin: 0 auto;
+            }
+            .header-nav__appointment {
+                margin: 10px auto 10px;
+            }
+            .header-nav-list {
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                flex-wrap: unset;
+
+                background: linear-gradient(45deg, white, #3fbdf9);
+
+                z-index: 1;
+                width: 320px;
+                top: -97px;
+                left: 0;
+                animation: slideRight .3s;
+
+                &.slideRightBack {
+                    animation: slideRightBack .3s;
+                }
+                > li {
+                    text-align: center;
+                    margin-bottom: 30px;
+                    padding: 0;
+
+                    a {
+                        font-size: 20px;
+                    }
+
+                    &:first-child {
+                        margin-top: 25%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px){  
+    .position1 {
+        position: fixed;
+        top: 132px;
+        left: 505px;
+    }
+     
+    .medical-servicec {
+        .medical-list-slider {
+            .slick-slide {
+                .medical-item {
+                    top: 0;
+                    h2 {
+                        font-size: 25px;
+                        line-height: 30px;
+                    }
+                    p {
+                        width: 300px;
+                    }
+                    a {
+                        width: 200px;
+                        height: 40px;
+
+                        padding: 10px 0;
+                    }
+                }
+            }
+            .slick-dots {
+                text-align: center;
+            }
+        }
+    }
+    
+    .footer {
+        .footer-inner {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+@media screen and (max-width: 767px){
+    .advantages {
+        margin-top: 0;
+
+        .advantages-list {
+            margin: 0;
+        }
+    }
+    
+    .title {
+        font-size: 24px;
+    }
+
+    .intro {
+        .intro-inner {
+            .intro-left {
+                text-align: center;
+            }
+        }
+    }
+
+    .services {
+        .services-list {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .specialists {
+        .specialist-slider-nav {
+            .button-center {
+                padding: 11px 15px 10px 15px;
+            }
+        }
+    }
+
+    .appointment-wrapper {
+        background: #0384d8;
+    }
+
+    .appointment {
+        flex-direction: column;
+
+        .appointment-content {
+            margin-right: 0;
+        }
+    }
+
+    .footer {
+        .footer-inner {
+            align-items: flex-start;
+            max-width: 290px;
+            width: 100%;
+            margin: 0 auto;
+
+            .footer-nav {
+                flex-direction: column;
+            }
+
+            .contacts-wrapper {
+
+                .contacts-wrapper-title {
+                    margin-left: 0;
+                }
+
+                .footer-appointment {
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    .contacts-tel {
+                        margin-bottom: 30px;
+                    }
+
+                    .button-apointment {
+                        margin-left: 0;
+                    }
+                }
+
+                .footer-location {
+                    flex-direction: column;
+                    margin-bottom: 30px;
+
+                    .adres {
+                        margin-bottom: 30px;
+                    }
+                }
+
+                .copyright-wrapper {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    .medical-servicec {
+        .medical-list-slider {
+            .slick-slide {
+                .medical-item {
+                    h2 {
+                        font-size: 20px;
+                    }
+                    p {
+                        display: none;
+                    }
+                    .button-price {
+                        padding: 5px 10px;
+                    }
+                 }
+            }
+        }   
+    }
+    .model-appointment {
+        width: 320px;
+        margin-left: -160px;
+        form {
+            p {
+                .field {
+                    margin-left: 20px;
+                    padding: 10px 84px 9px 14px;
+                }
+                &.button-appointment {
+                    .button-send {
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 320px){
+
+}
